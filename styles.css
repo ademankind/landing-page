@@ -1,0 +1,38 @@
+body{
+font-family: Roboto;
+display: flex;
+flex-direction: column;
+margin: auto 0px;
+}
+
+div{
+  padding: auto 68px;
+}
+
+.header{
+    display: flex;
+    color: #f9faf8;
+    background-color: #1F2937;
+    justify-content: space-between;
+    
+
+}
+
+.logo{
+    font-size: 24px;
+    padding: 12px;
+    font-weight: 900;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+
+a{
+    padding: 8px 12px;
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 18px;
+}
