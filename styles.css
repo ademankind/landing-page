@@ -136,3 +136,11 @@ button{
 }
 
 
+/*footer*/
+
+.footer{
+    display: flex;
+    background-color: #1F2937;
+    color: #f9faf8;
+    justify-content: space-around;
+}
