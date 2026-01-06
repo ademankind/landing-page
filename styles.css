@@ -11,7 +11,7 @@ div{
 
 
 
-/* */
+/* Header section*/
 .header{
     display: flex;
     color: #f9faf8;
@@ -38,7 +38,7 @@ a{
     font-size: 18px;
 }
 
-/* */
+/*Hero section */
 .hero{
     display: flex;
     color: #f9faf8;
@@ -47,7 +47,7 @@ a{
     justify-content: space-around;
 }
 
-p{
+.hero p{
    max-width: 300px;
 }
 
@@ -68,7 +68,7 @@ button{
     border: 0;
 }
 
-/* */
+/*Information section */
 .container1{
     display: flex;
     flex-direction: row;
@@ -95,7 +95,22 @@ button{
     height: 150px;
 }
 
-figcaption{
+.fig figcaption{
     text-align: center;
+    max-width: 150px;
 }
 
+/*Testimonial Section */
+
+.testimonial{
+    display: flex;
+    background-color: #e5e7eb;  
+    font-size: 36px;
+    font-weight: 300;
+}
+
+.testimonial figcaption{
+    font-size: 24px;
+    font-weight: 900;
+    text-align: right;
+}
