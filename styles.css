@@ -6,16 +6,17 @@ margin: auto 0px;
 }
 
 div{
-  padding: auto 68px;
+  padding: auto 200px;/* might be redundant*/
 }
 
+
+
+/* */
 .header{
     display: flex;
     color: #f9faf8;
     background-color: #1F2937;
-    justify-content: space-between;
-    
-
+    justify-content: space-around;
 }
 
 .logo{
@@ -36,3 +37,35 @@ a{
     color: #e5e7eb;
     font-size: 18px;
 }
+
+/* */
+.hero{
+    display: flex;
+    color: #f9faf8;
+    background-color: #1F2937;
+    padding: 40px 0px ;
+    justify-content: space-around;
+}
+
+p{
+   max-width: 300px;
+}
+
+.image1{
+    padding: 30px;
+    background-color: #686869;
+}
+
+button{
+    background-color: #3882f6;
+    border-radius: 5px;
+    border-color: #f9faf8;
+    padding: 6px 24px ;
+    color: #f9faf8;
+}
+
+.button1{
+    border: 0;
+}
+
+/* */
