@@ -2,13 +2,9 @@ body{
 font-family: Roboto;
 display: flex;
 flex-direction: column;
-margin: auto 0px;
-}
+margin: auto;
 
-div{
-  padding: auto 200px;/* might be redundant*/
 }
-
 
 
 /* Header section*/
@@ -17,6 +13,7 @@ div{
     color: #f9faf8;
     background-color: #1F2937;
     justify-content: space-around;
+ 
 }
 
 .logo{
@@ -43,7 +40,7 @@ a{
     display: flex;
     color: #f9faf8;
     background-color: #1F2937;
-    padding: 40px 0px ;
+    padding: 100px 40px ;
     justify-content: space-around;
 }
 
@@ -74,6 +71,7 @@ button{
     flex-direction: row;
     justify-content: center;
     flex-wrap: wrap;
+    padding: 100px 40px ;
 }
 
 .container1 h2{
@@ -85,14 +83,17 @@ button{
 
 .container2{
     display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
 
 .fig img{
     border: 2px solid #3882f6;
     border-radius: 8px;
-    width: 150px;
-    height: 150px;
+    width: 140px;
+    height: auto;
+    
 }
 
 .fig figcaption{
@@ -107,6 +108,8 @@ button{
     background-color: #e5e7eb;  
     font-size: 36px;
     font-weight: 300;
+    padding: 30px 40px ;
+    margin-bottom: 60px;
 }
 
 .testimonial figcaption{
@@ -119,16 +122,19 @@ button{
 
 .action{
     display: flex;
-    margin: 10px 80px;
-    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
     background-color: #3882f6;
     border-radius: 8px;
+    padding: 10px 80px;
+    margin: auto auto 40px auto;
+  
 }
 
-.action .text{
+.text{
     color: #e5e7eb;
-    margin: 0px auto;
-    padding: 0px auto;
+    margin: 0px;
+   
 }
 
 .button2{
